@@ -20,6 +20,7 @@ if (Meteor.isClient) {
                 console.log('email - ' + t.find('#email').value);
                 console.log('password - ' + t.find('#password').value);
                 Logininfo.insert({username:t.find('#email').value,password:t.find('#password').value});
+                
             // };
         }
     });
