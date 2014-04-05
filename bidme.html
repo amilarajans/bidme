@@ -1,0 +1,23 @@
+<head>
+    <title>BidMe</title>
+</head>
+
+<body>
+    {{> login}}
+</body>
+
+<template name="login">
+    <div class="container">
+
+        <form class="form-signin" role="form">
+            <h2 class="form-signin-heading">Please sign in</h2>
+            <input type="email" class="form-control" placeholder="Email address" id="email" required autofocus>
+            <input type="password" class="form-control" placeholder="Password" id="password" required>
+            <!-- <label class="checkbox">
+                <input type="checkbox" value="remember-me">Remember me
+            </label> -->
+            <button class="btn btn-lg btn-primary btn-block" type="submit" id="login">Sign in</button>
+        </form>
+
+    </div>
+</template>
