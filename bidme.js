@@ -19,8 +19,6 @@ if (Meteor.isClient) {
             // if (e.keyCode == 13) {
                 console.log('email - ' + t.find('#email').value);
                 console.log('password - ' + t.find('#password').value);
-                alert('email - ' + t.find('#email').value);
-                alert('password - ' + t.find('#password').value);
                 Logininfo.insert({username:t.find('#email').value,password:t.find('#password').value});
             // };
         }
