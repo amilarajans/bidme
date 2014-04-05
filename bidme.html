@@ -3,20 +3,37 @@
 </head>
 
 <body>
-    {{> login}}
+    <div>{{> login}}</div>
+    <div>{{> signup}}</div>
 </body>
 
 <template name="login">
     <div class="container">
 
-        <form class="form-signin" role="form">
-            <h2 class="form-signin-heading">Please sign in</h2>
-            <input type="email" class="form-control" placeholder="Email address" id="email" required autofocus>
+        <form class="form-signin" id="loginForm" role="form">
+            <h2 class="form-signin-heading">Please Sign In</h2>
+            <input type="text" class="form-control" placeholder="User Name" id="username" required autofocus>
             <input type="password" class="form-control" placeholder="Password" id="password" required>
             <!-- <label class="checkbox">
                 <input type="checkbox" value="remember-me">Remember me
             </label> -->
-            <button class="btn btn-lg btn-primary btn-block" type="submit" id="login">Sign in</button>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign In</button>
+        </form>
+
+    </div>
+</template>
+
+<template name="signup">
+    <div class="container">
+
+        <form class="form-signin" id="signupForm" role="form">
+            <h2 class="form-signin-heading">Please Sign Un</h2>
+            <input type="text" class="form-control" placeholder="Name" id="name" required autofocus>
+            <input type="text" class="form-control" placeholder="Email" id="email" required>
+            <input type="text" class="form-control" placeholder="Mobile Number" id="mobile" required>
+            <input type="text" class="form-control" placeholder="User Name" id="username" required>
+            <input type="password" class="form-control" placeholder="Password" id="password" required>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
         </form>
 
     </div>
