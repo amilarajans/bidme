@@ -1,0 +1,81 @@
+{
+  "builtBy": "meteor/10",
+  "sliceDependencies": {
+    "browser.json": {
+      "files": {
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\package.js": "8d263f03d2a0e82aee7bc8bc7e6f3232c073e789",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\utils.js": "fa4e6bd04a231d35afdcac206a68a1e7eba08b51",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\route.js": "3dd0fcd7dd8ed881ef0c792d6bd47a8394b84c06",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\route_controller.js": "44c108f72bb15defb03936e0cd49f22a171b81d9",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\router.js": "fb58a20661ce4754ad5707bc3d7fd873f5e285a1",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\client\\location.js": "5a796a38c75bee5a47d3165d3d3f2503b2e714f5",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\client\\router.js": "389aa1c45bf9b9aee287409b65f9cd054c9ccabf",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\client\\wait_list.js": "62ac0b76c29312e0eb7321cca1c7698c22822137",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\client\\hooks.js": "83279175d213370f37df986a7edd3f446bb0cb53",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\client\\route_controller.js": "c7929d7231514084f370b852eadd9bcee0377e9f",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\client\\ui\\helpers.js": "8ef83071b3d72ad18d3c2657c5556d476f20b1f5",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\blaze-layout\\package.js": "7935d9a8f42155027df22cb030852afcc981edb8"
+      },
+      "directories": []
+    },
+    "os.json": {
+      "files": {
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\package.js": "8d263f03d2a0e82aee7bc8bc7e6f3232c073e789",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\utils.js": "fa4e6bd04a231d35afdcac206a68a1e7eba08b51",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\route.js": "3dd0fcd7dd8ed881ef0c792d6bd47a8394b84c06",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\route_controller.js": "44c108f72bb15defb03936e0cd49f22a171b81d9",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\router.js": "fb58a20661ce4754ad5707bc3d7fd873f5e285a1",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\server\\route_controller.js": "4be7bfdf02d556fe2fc367c3219986878e825bf0",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\lib\\server\\router.js": "9e5aa14a601e4b72ad91811eaa38f2ec1b9a2da3"
+      },
+      "directories": []
+    },
+    "tests.browser.json": {
+      "files": {
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\package.js": "8d263f03d2a0e82aee7bc8bc7e6f3232c073e789",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\test\\test_helpers.js": "b9b1dc2d44c04dc731d67762ba8fd89c22301f4a",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\test\\both\\route.js": "e02668e2f139f0c2a8e353c070a91546d4876dd6",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\test\\both\\route_controller.js": "fd6c6333077ec4b69c94a23d9649dcca6497e153",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\test\\both\\router.js": "66a7468158e662079d4fb4c3a02bd389ebc76770",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\test\\both\\utils.js": "600a00bd76fe028b0d98453bec41d8b0790e40de",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\test\\client\\mocks.js": "2a21fb7d86c3bfbaffe5959bee9ac604414905c9",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\test\\client\\router.js": "e799cbf6da91ac843eab937b8718dc50227a7251",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\test\\client\\route_controller.js": "c0dd70abdd9176a0bb6010d754aae744d03ef24b",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\test\\client\\wait_list.js": "9f1c6576b21958a058d3354a5090b2cc6eb727a4"
+      },
+      "directories": []
+    },
+    "tests.os.json": {
+      "files": {
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\package.js": "8d263f03d2a0e82aee7bc8bc7e6f3232c073e789",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\test\\test_helpers.js": "b9b1dc2d44c04dc731d67762ba8fd89c22301f4a",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\test\\both\\route.js": "e02668e2f139f0c2a8e353c070a91546d4876dd6",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\test\\both\\route_controller.js": "fd6c6333077ec4b69c94a23d9649dcca6497e153",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\test\\both\\router.js": "66a7468158e662079d4fb4c3a02bd389ebc76770",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\test\\both\\utils.js": "600a00bd76fe028b0d98453bec41d8b0790e40de",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\test\\server\\router.js": "7819a0e59c9981c6a016d6f7845ba4834a7c4808"
+      },
+      "directories": []
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router\\package.js": "8d263f03d2a0e82aee7bc8bc7e6f3232c073e789"
+    },
+    "directories": []
+  },
+  "pluginProviderPackages": {
+    "iron-router": "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router",
+    "meteor": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\meteor\\867abb9cc0",
+    "reactive-dict": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\reactive-dict\\0d161c9bff",
+    "deps": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\deps\\85e616fe77",
+    "underscore": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\underscore\\385ecbfa96",
+    "ejson": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\ejson\\a6cad06bca",
+    "jquery": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\jquery\\66913f6876",
+    "blaze-layout": "C:\\Users\\Amila\\Desktop\\bidme\\packages\\blaze-layout",
+    "webapp": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\webapp\\5e313f1c9d",
+    "tinytest": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\tinytest\\95ac0af171",
+    "test-helpers": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\test-helpers\\753a47bed3"
+  },
+  "source": "C:\\Users\\Amila\\Desktop\\bidme\\packages\\iron-router"
+}

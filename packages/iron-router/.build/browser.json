@@ -1,0 +1,86 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "RouteController",
+      "export": true
+    },
+    {
+      "name": "Route",
+      "export": true
+    },
+    {
+      "name": "Router",
+      "export": true
+    },
+    {
+      "name": "IronLocation",
+      "export": true
+    },
+    {
+      "name": "Utils",
+      "export": "tests"
+    },
+    {
+      "name": "IronRouter",
+      "export": "tests"
+    },
+    {
+      "name": "WaitList",
+      "export": "tests"
+    },
+    {
+      "name": "hasOld"
+    },
+    {
+      "name": "paramParts"
+    },
+    {
+      "name": "href"
+    },
+    {
+      "name": "setState"
+    },
+    {
+      "name": "added"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "reactive-dict"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "ui",
+      "weak": true
+    },
+    {
+      "package": "blaze-layout",
+      "unordered": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/iron-router.js",
+      "length": 231559,
+      "offset": 0,
+      "servePath": "/packages/iron-router.js",
+      "sourceMap": "browser/packages/iron-router.js.map"
+    }
+  ]
+}

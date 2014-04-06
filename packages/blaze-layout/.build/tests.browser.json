@@ -1,0 +1,32 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "test-helpers"
+    },
+    {
+      "package": "blaze-layout"
+    },
+    {
+      "package": "templating"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/blaze-layouttests.js",
+      "length": 37992,
+      "offset": 0,
+      "servePath": "/packages/blaze-layout:tests.js",
+      "sourceMap": "tests.browser/packages/blaze-layouttests.js.map"
+    }
+  ]
+}

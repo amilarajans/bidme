@@ -1,0 +1,50 @@
+{
+  "builtBy": "meteor/10",
+  "sliceDependencies": {
+    "browser.json": {
+      "files": {
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\blaze-layout\\package.js": "7935d9a8f42155027df22cb030852afcc981edb8",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\blaze-layout\\layout.js": "45ff96e508fea4c6775c204f6846403318e9ca61"
+      },
+      "directories": []
+    },
+    "os.json": {
+      "files": {
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\blaze-layout\\package.js": "7935d9a8f42155027df22cb030852afcc981edb8"
+      },
+      "directories": []
+    },
+    "tests.browser.json": {
+      "files": {
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\blaze-layout\\package.js": "7935d9a8f42155027df22cb030852afcc981edb8",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\blaze-layout\\layout-test.html": "f27f5b8d4721b78bdd36436894b8ae46efa8ebb1",
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\blaze-layout\\layout-test.js": "c43dfcdd139fd09540bfa6b4501bf7c211341bbb"
+      },
+      "directories": []
+    },
+    "tests.os.json": {
+      "files": {
+        "C:\\Users\\Amila\\Desktop\\bidme\\packages\\blaze-layout\\package.js": "7935d9a8f42155027df22cb030852afcc981edb8"
+      },
+      "directories": []
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "C:\\Users\\Amila\\Desktop\\bidme\\packages\\blaze-layout\\package.js": "7935d9a8f42155027df22cb030852afcc981edb8"
+    },
+    "directories": []
+  },
+  "pluginProviderPackages": {
+    "blaze-layout": "C:\\Users\\Amila\\Desktop\\bidme\\packages\\blaze-layout",
+    "meteor": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\meteor\\867abb9cc0",
+    "templating": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\templating\\6e5a7aa16d",
+    "ui": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\ui\\52cf8fc1ae",
+    "reactive-dict": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\reactive-dict\\0d161c9bff",
+    "underscore": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\underscore\\385ecbfa96",
+    "htmljs": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\htmljs\\7fbb703d1a",
+    "tinytest": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\tinytest\\95ac0af171",
+    "test-helpers": "C:\\Users\\Amila\\AppData\\Local\\.meteor\\packages\\test-helpers\\753a47bed3"
+  },
+  "source": "C:\\Users\\Amila\\Desktop\\bidme\\packages\\blaze-layout"
+}

@@ -1,0 +1,43 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "Layout",
+      "export": true
+    },
+    {
+      "name": "BlazeUIManager"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "iron-router",
+      "weak": true
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "ui"
+    },
+    {
+      "package": "reactive-dict"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/blaze-layout.js",
+      "length": 53021,
+      "offset": 0,
+      "servePath": "/packages/blaze-layout.js",
+      "sourceMap": "browser/packages/blaze-layout.js.map"
+    }
+  ]
+}

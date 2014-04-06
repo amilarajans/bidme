@@ -1,0 +1,62 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "RouteController",
+      "export": true
+    },
+    {
+      "name": "Route",
+      "export": true
+    },
+    {
+      "name": "Router",
+      "export": true
+    },
+    {
+      "name": "Utils",
+      "export": "tests"
+    },
+    {
+      "name": "IronRouter",
+      "export": "tests"
+    },
+    {
+      "name": "hasOld"
+    },
+    {
+      "name": "paramParts"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "reactive-dict"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "webapp"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/iron-router.js",
+      "length": 139514,
+      "offset": 0,
+      "servePath": "/packages/iron-router.js",
+      "sourceMap": "os/packages/iron-router.js.map"
+    }
+  ]
+}

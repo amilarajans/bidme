@@ -1,0 +1,39 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [
+    {
+      "name": "LocationMock"
+    },
+    {
+      "name": "UIMock"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "iron-router"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "test-helpers"
+    },
+    {
+      "package": "reactive-dict"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/iron-routertests.js",
+      "length": 150837,
+      "offset": 0,
+      "servePath": "/packages/iron-router:tests.js",
+      "sourceMap": "tests.browser/packages/iron-routertests.js.map"
+    }
+  ]
+}
