@@ -1,0 +1,93 @@
+<template name="productdet">
+<section id="wrapper" class="row">
+  <nav id="navigation">
+    <section id="navwrap">
+      <div id="logosect">
+        <img src="images/layout_02.png" alt="BidMe Don't miss it">
+      </div>
+      <div id="navlist">
+        <ul id="navlinkssection">
+          <li><a href="/home">Home</a></li>
+          <li><a href="/bidnow">Bid now</a></li>
+          <li><a href="/signup">Sign up / Sign in</a></li>
+          <li><a href="/contacts">Contacts</a></li>
+        </ul>
+        <div id="navselectbox" class="row">
+          <select class="row">
+            <option value="home">Home</option>
+            <option value="bidnow">Bid now</option>
+            <option value="signup">Sign up</option>
+            <option value="contacts">Contacts</option>
+          </select>
+        </div>
+      </div>
+    </section>
+  </nav>
+  <section id="main_container" >
+    <div id="mainwrapper" class="row">
+      <h1 class="maintitle">Product Name</h1>
+      <div class="col-md-12 productdetmain row">
+        <div class="col-md-4 pimage">
+          <img src="images/mountainbike.jpg" alt="">
+        </div>
+        <div class="col-md-8 pdetails">
+          <h1 class="productname">
+            Mountain Bicycle
+          </h1>
+          <p class="expdateproduct"><i><b>Expire Date</b></i> : 31 April 2014</p>
+          <p class="startingbid"><b>Starting</b> : LKR 3,000</p>
+          <p class="currentbid"><b>Current</b> : LKR 15,000</p>
+          <div class="bidfrm">
+            <form>
+              <input type="text" name="bidvalue" id="bidvalue" class="textbox" placeholder="Type your price" />&nbsp;&nbsp;<button type="submit" class="smallbtnclass">Bid now!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <h1 class="maintitle" style="margin-top: 1em; float: left;">Bid History</h1>
+      <div class="col-md-12 bidhistory row">
+        <ul id="bidhistory">
+          <li class="bidlog">
+            <div style="float: left; display: block; margin-left: 1em;">Gayan Priyankara</div><div style="float: right; display: block; margin-right: 1em;">LKR 12,500</div>
+          </li>
+          <li class="bidlog">
+            <div style="float: left; display: block; margin-left: 1em;">Gayan Priyankara</div><div style="float: right; display: block; margin-right: 1em;">LKR 12,500</div>
+          </li>
+          <li class="bidlog">
+            <div style="float: left; display: block; margin-left: 1em;">Gayan Priyankara</div><div style="float: right; display: block; margin-right: 1em;">LKR 12,500</div>
+          </li>
+          <li class="bidlog">
+            <div style="float: left; display: block; margin-left: 1em;">Gayan Priyankara</div><div style="float: right; display: block; margin-right: 1em;">LKR 12,500</div>
+          </li>
+          <li class="bidlog">
+            <div style="float: left; display: block; margin-left: 1em;">Gayan Priyankara</div><div style="float: right; display: block; margin-right: 1em;">LKR 12,500</div>
+          </li>
+          <li class="bidlog">
+            <div style="float: left; display: block; margin-left: 1em;">Gayan Priyankara</div><div style="float: right; display: block; margin-right: 1em;">LKR 12,500</div>
+          </li>
+          <li class="bidlog">
+            <div style="float: left; display: block; margin-left: 1em;">Gayan Priyankara</div><div style="float: right; display: block; margin-right: 1em;">LKR 12,500</div>
+          </li>
+          <li class="bidlog">
+            <div style="float: left; display: block; margin-left: 1em;">Gayan Priyankara</div><div style="float: right; display: block; margin-right: 1em;">LKR 12,500</div>
+          </li>
+          <li class="bidlog">
+            <div style="float: left; display: block; margin-left: 1em;">Gayan Priyankara</div><div style="float: right; display: block; margin-right: 1em;">LKR 12,500</div>
+          </li>
+
+
+        </ul>
+      </div>
+      <h1 class="maintitle" style="margin-top: 1em; float: left;">Product Details</h1>
+      <div class="col-md-12 prodet row">
+        <p>Returning a subscription handle, or anything with a ready method from the waitOn function will add the handle to a wait list. When you call this.ready() in any of your other route functions, the result is true if all items in the wait list are ready. This lets us do things like show a loading indicator while waiting for data. You can implement a loading indicator in your route like this:</p>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div id="footerwrap">
+      <p>&copy; Copyrights BidMe 2014</p>
+    </div>
+  </footer>
+</section>
+</template>

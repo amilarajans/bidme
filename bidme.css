@@ -1,4 +1,4 @@
-@import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");/*!
+/*!
  * Bootswatch v3.1.1
  * Homepage: http://bootswatch.com
  * Copyright 2012-2014 Thomas Park
@@ -56,8 +56,8 @@ section#navwrap div#navlist a:link, section#navwrap div#navlist a:visited {
 	display: block;
 	padding-left: 2.5em;
 	padding-right: 2.5em;
-	padding-top: 40px;
-	padding-bottom: 41px;
+	padding-top: 39px;
+	padding-bottom: 39px;
 	text-decoration: none;
 	background-image: url('../images/devider.png');
 	background-repeat: no-repeat;
@@ -134,6 +134,16 @@ button.btnclass {
 	border: 1px solid #011936;
 }
 
+button.btnclass2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size: 1.6em;
+	color: #ffffff;
+	padding: 17px 1.3em;
+	background-color: #012551;
+	border: 1px solid #011936;
+}
+
 button.smallbtnclass {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
@@ -165,21 +175,30 @@ button.smallbtnclass {
 
 /* ////////////////// Sign up page styles ////////////////// */
 #wrapper section#main_container {
-	position: fixed;
+	/*position: fixed;*/
 	width: 100%;
 	top: 106px;
+	/*overflow: scroll;*/
+	overflow-x: hidden;
+}
+
+div.bidbtn input {
+	width: 165px;
+	margin-bottom: .3em;
 }
 
 #wrapper section#main_container #mainwrapper{
 	width: 80%;
-	background-color: #fff;
 	margin: 0 auto;
 	height: 1000px;
-	overflow: scroll;
-	overflow-x: hidden;
+	
 	padding-bottom: 1.2em;
 }
-
+#mainwrapper h1.maintitle {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	font-weight: 100;
+}
 aside#signinfrm {
 	margin: .8em .4em;
 	border-right: 1px solid #ccc;
@@ -206,6 +225,205 @@ input.form-control {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	color: #666;
+}
+
+/* ///////////////// Bid now Styles /////////////////// */
+#mainwrapper div.pbox {
+	height: 340px;
+	position: relative;
+	padding: 0px;
+	margin-bottom: 1.3em;
+}
+div.pbox div.boxwrapper{
+	height: 340px;
+	box-shadow: 0px 0px 1px #666;
+	-webkit-box-shadow: 0px 0px 1px #666;
+	margin: .6em;
+}
+div.bidform {
+	height: 100px;
+	clear: both;
+}
+#boxwrapper div.col-md-4 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.price {
+	height: 80px;
+	background-color: #037F1C;
+}
+
+div.exdate {
+	background-color: #fff;
+	margin-bottom: 2em;
+}
+
+div.bidbtn {
+	height: 130px;
+	width: 100%;
+	text-align: center;
+}
+
+div.price h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	color: #fff;
+	font-weight: 100;
+	margin: 0px;
+	padding: 8px 5px;
+	text-align: center;
+}
+div.exdate h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	color: #333;
+	font-weight: 100;
+	margin: 0px;
+	padding: 8px 5px;
+	padding-top: 1.8em;
+	text-align: center;
+}
+div.price p.pricevalue {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	font-weight: normal;
+	padding: 2px 5px;
+	text-align: center;
+}
+span.pricevalue {
+	font-size: 24px;
+}
+div.exdate p.exdatevalue {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #666;
+	font-weight: normal;
+	padding: 2px 5px;
+	text-align: center;
+}
+
+div.boxwrapper div.productsect {
+	text-align: center;
+	margin: 10px 0px;
+	height: 340px;
+}
+
+div.productsect img {
+	width: 80%;
+}
+
+div.productsect p.productname {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #333;
+	font-weight: normal;
+	margin-top: 1.5em;
+}
+div.productsect img {
+	margin-top: 12%;
+}
+
+div.bidform {
+	padding: 1em;
+}
+
+/* ///////////////// Product Detail Styles //////////////////// */
+
+div.productdetmain {
+	height: 255px;
+	box-shadow: 0px 0px 1px #666;
+	-webkit-box-shadow: 0px 0px 1px #666;
+	-moz-box-shadow: 0px 0px 1px #666;
+	margin: 5px;
+}
+div.productdetmain div.pimage {
+	text-align: center;
+	margin-top: 1em;
+}
+
+p.expdateproduct {
+	color: #666;
+}
+
+p.startingbid {
+	color: #666;
+}
+p.currentbid {
+	color: #f60;
+}
+input.textbox {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14;
+	color: #333;
+	border: 1px solid #ccc;
+}
+
+div.bidhistory {
+	box-shadow: 0px 0px 1px #666;
+	-webkit-box-shadow: 0px 0px 1px #666;
+	-moz-box-shadow: 0px 0px 1px #666;
+	margin: 5px;
+	clear: both;
+	padding: 0px;
+}
+
+ul#bidhistory {
+	padding: 0px;
+}
+ul#bidhistory li.bidlog {
+	padding: 12px 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+	margin: 0px;
+	border-bottom: 1px solid #ccc;
+	list-style-type: none;
+	height: 44px;
+}
+
+div.prodet {
+	box-shadow: 0px 0px 1px #666;
+	-webkit-box-shadow: 0px 0px 1px #666;
+	-moz-box-shadow: 0px 0px 1px #666;
+	margin: 5px;
+	clear: both;
+	padding: 0px;
+}
+
+div.prodet p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: #333;
+	font-weight: normal;
+	padding: 1.4em;
+	margin-left: 1em;
+}
+
+/* //////////////////// Contact Us //////////////////// */
+
+div#contactdet {
+	position: fixed;
+	width: 100%;
+	bottom: 30px;
+	height: 100px;
+	background-color: #fff;
+}
+
+div#contactdet div#contdetwrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 6px;
+}
+div#contdetwrapper h1 {
+	margin-top: 0em;
+	float: left;
+}
+div#contdetwrapper p {
+	margin-top: 0.6em;
+	float: left;
+	margin-left: 3em;
 }
 
 
@@ -301,7 +519,7 @@ input.form-control {
 
 	section#signupfrm {
 		clear: both;
-		margin-top: 1em;
+		float: left;
 	}
 
 }

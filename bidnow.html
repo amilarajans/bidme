@@ -1,0 +1,86 @@
+<template name="bidnow">
+
+    <section id="wrapper" class="row">
+        <nav id="navigation">
+            <section id="navwrap">
+                <div id="logosect">
+                    <img src="images/layout_02.png" alt="BidMe Don't miss it">
+                </div>
+                <div id="navlist">
+                    <ul id="navlinkssection">
+                        <li><a href="/home">Home</a>
+                        </li>
+                        <li><a href="/bidnow">Bid now</a>
+                        </li>
+                        <li>
+                            {{#if currentUser}}
+                            <a href="/logout">Logout</a>
+                            {{else}}
+                            <a href="/signup">Sign up / Sign in</a>
+                            {{/if}}
+                        </li>
+                        <li><a href="/contacts">Contacts</a>
+                        </li>
+                    </ul>
+                    <div id="navselectbox" class="row">
+                        <select class="row">
+                            <option value="home">Home</option>
+                            <option value="bidnow">Bid now</option>
+                            <option value="signup">Sign up</option>
+                            <option value="contacts">Contacts</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+        </nav>
+        <section id="main_container">
+            <div id="mainwrapper" class="row">
+                <h1 class="maintitle">Latest Products</h1>
+                {{> productBit}}
+            </div>
+        </section>
+        <footer id="footer">
+            <div id="footerwrap">
+                <p>&copy; Copyrights BidMe 2014</p>
+            </div>
+        </footer>
+    </section>
+
+</template>
+
+<template name="productBit">
+
+    <form class="form-bit" role="form">
+
+        {{#each product}}
+        <div class="col-md-6 col-sm-12 col-xs-12 pbox">
+            <div class="boxwrapper row">
+                <div class="col-md-7 col-sm-12 col-xs-12 productsect">
+                    <img src="{{url}}" alt="Product Name" class="img-responsive">
+                    <p class="productname">{{name}}</p>
+                </div>
+                <div class="col-md-5 col-sm-12 col-xs-12" style="padding: 0px; height: 400px;">
+                    <div class="price">
+                        <h2>Bid to Beat</h2>
+                        <p class="pricevalue">LKR
+                            <span class="pricevalue">{{start_bid}}</span>
+                        </p>
+                    </div>
+                    <div class="exdate">
+                        <h2>Expire Date</h2>
+                        <!-- <div id="{{name}}-timer">{{remtimer(this)}}</div> -->
+                        <p class="exdatevalue">{{end_date}}</p>
+                    </div>
+                    <div class="bidbtn">
+                        {{#if currentUser}}
+                        <input type="number" name="bid" id="{{_id}}-bid" placeholder="eg: bid amount" required>{{/if}}
+                        <button class="btnclass2">Bid Now !</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+
+    </form>
+
+</template>

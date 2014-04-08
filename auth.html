@@ -1,0 +1,127 @@
+<template name="login">
+
+    <h1 class="defTitle">Sign in</h1>
+    <form class="form-signing" id="loginForm" role="form">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" name="username" id="username" placeholder="eg: username" required autofocus>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" name="password" id="password" placeholder="eg: type your password" required>
+        </div>
+        <button type="submit" class="smallbtnclass" style="float: left;">Submit</button>
+    </form>
+
+</template>
+
+<template name="signupForm">
+
+    <h1 class="defTitle">Sign up</h1>
+    <form class="form-signing" id="signupForm" role="form">
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="eg: Tuan Iswan" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" name="email" id="email" placeholder="eg: info@iswanjumat.com" required>
+        </div>
+        <!-- <div class="form-group">
+            <label for="InputId">NIC No / Passport No</label>
+            <input type="text" class="form-control" name="InputId" id="InputId" placeholder="eg: 87338402V / 2543878132356" required>
+        </div>
+        <div class="form-group">
+            <label for="InputPhone">Phone Number</label>
+            <input type="number" class="form-control" name="InputPhone" id="InputPhone" placeholder="eg: 94111352007" required>
+        </div> -->
+        <div class="form-group">
+            <label for="mobile">Mobile Number</label>
+            <input type="text" class="form-control" name="mobile" id="mobile" placeholder="eg: 94771352007" required>
+        </div>
+        <div class="form-group">
+            <label for="username">User Name</label>
+            <input type="text" class="form-control" name="username" id="username" placeholder="eg: username" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" name="password" id="password" placeholder="eg: Type your password" required>
+        </div>
+        <div class="form-group">
+            <label for="re-password">Confirm Password</label>
+            <input type="password" class="form-control" name="re-password" id="re-password" placeholder="eg: Type your password again" required>
+        </div>
+        <button type="submit" class="smallbtnclass" style="float: left;">Submit</button>
+    </form>
+
+</template>
+
+
+<template name="signup">
+
+    <section id="wrapper" class="row">
+        <nav id="navigation">
+            <section id="navwrap">
+                <div id="logosect">
+                    <img src="images/layout_02.png" alt="BidMe Don't miss it">
+                </div>
+                <div id="navlist">
+                    <ul id="navlinkssection">
+                        <li><a href="/home">Home</a>
+                        </li>
+                        <li><a href="/bidnow">Bid now</a>
+                        </li>
+                        <li><a href="/signup">Sign up / Sign in</a>
+                        </li>
+                        <li><a href="/contacts">Contacts</a>
+                        </li>
+                    </ul>
+                    <div id="navselectbox" class="row">
+                        <select class="row">
+                            <option value="home">Home</option>
+                            <option value="bidnow">Bid now</option>
+                            <option value="signup">Sign up</option>
+                            <option value="contacts">Contacts</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+        </nav>
+        <section id="main_container">
+            <div id="mainwrapper" class="row">
+                <aside id="signinfrm" class="col-md-4 col-sm-12 col-xs-12">
+                    {{> login}}
+                </aside>
+                <section id="signupfrm" class="col-md-7 col-sm-12 col-xs-12">
+                    {{> signupForm}}
+                </section>
+            </div>
+        </section>
+        <footer id="footer">
+            <div id="footerwrap">
+                <p>&copy; Copyrights BidMe 2014</p>
+            </div>
+        </footer>
+    </section>
+
+</template>
+
+<template name="pss">
+
+    {{#if resetPassword}}
+    <form class="form-signin" id="new-password" action="action">
+        <div>
+            <input type="text" id="new-password-password" />
+            <input type="submit" value="Change Password" />
+        </div>
+    </form>
+    {{else}}
+    <form class="form-signin" id="recovery-form" action="action">
+        <div>
+            <input type="text" id="recovery-email" />
+            <input type="submit" value="Send Reset Instructions" />
+        </div>
+    </form>
+    {{/if}}
+
+</template>
